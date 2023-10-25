@@ -35,17 +35,17 @@ btn.addEventListener( "click", function ( e )
     }
 
     case 'subtracao': {
-      subtracao( numberOne, numberTwo )
+      printResult.innerHTML = subtracao( numberOne, numberTwo )
       break
     }
 
     case 'divisao': {
-      divisao( numberOne, numberTwo )
+      printResult.innerHTML = divisao( numberOne, numberTwo )
       break
     }
 
     case 'multiplicacao': {
-      multiplicacao( numberOne, numberTwo )
+      printResult.innerHTML = multiplicacao( numberOne, numberTwo )
       break
     }
 
